@@ -1,0 +1,37 @@
+# docker-compose.yml
+# This file defines the AdGuard Home service using Docker.
+# Place this file in your main project directory.
+
+version: "3.8"
+services:
+  adguardhome:
+    image: adguard/adguardhome:latest
+    container_name: adguardhome
+    ports:
+      # Port for the initial setup wizard. 
+      # IMPORTANT: Remove this line after the initial setup is complete for security.
+      - "3000:3000/tcp" 
+      
+      # Port 80 is required for Let's Encrypt SSL certificate validation.
+      - "80:80/tcp"
+
+      # Standard DNS.
+      - "53:53/tcp"
+      - "53:53/udp"
+      
+      # DNS-over-HTTPS (will also be used for the admin panel).
+      - "443:443/tcp"
+      - "443:443/udp"
+
+      # DNS-over-TLS.
+      - "853:853/tcp"
+
+    volumes:
+      # Maps the container's work directory to a 'work' folder on your host machine.
+      - ./work:/opt/adguardhome/work
+      
+      # Maps the container's configuration directory to a 'conf' folder on your host machine.
+      - ./conf:/opt/adguardhome/conf
+      
+    restart: unless-stopped
+
