@@ -1,3 +1,4 @@
+tpc.googlesyndication.com
 logging.googleapis.com
 lh5.googleusercontent.com
 adtago.s3.amazonaws.com
