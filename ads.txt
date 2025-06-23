@@ -1,5 +1,4 @@
 logging.googleapis.com
-logging.googleapis.us
 adtago.s3.amazonaws.com
 analyticsengine.s3.amazonaws.com
 analytics.s3.amazonaws.com
