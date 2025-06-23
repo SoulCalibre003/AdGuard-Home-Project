@@ -13,7 +13,7 @@ pagead2.googleadservices.com
 afs.googlesyndication.com
 googleads.g.doubleclick.net
 googlevideo.com
-logging.googleapis.com
+googleapis.com
 
 # --- Doubleclick.net
 stats.g.doubleclick.net
