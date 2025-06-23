@@ -1,3 +1,5 @@
+logging.googleapis.com
+logging.googleapis.us
 adtago.s3.amazonaws.com
 analyticsengine.s3.amazonaws.com
 analytics.s3.amazonaws.com
@@ -8,7 +10,6 @@ pagead2.googleadservices.com
 afs.googlesyndication.com
 googleads.g.doubleclick.net
 googlevideo.com
-googleapis.com
 stats.g.doubleclick.net
 ad.doubleclick.net
 static.doubleclick.net
