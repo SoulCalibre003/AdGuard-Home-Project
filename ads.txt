@@ -1,4 +1,3 @@
-pool.ntp.org
 criteo.com
 pubmatic.com
 adroll.com
