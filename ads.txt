@@ -1,6 +1,4 @@
-api.revenuecat.com
-md.app.nextplus.me
-xmpp.prd.gii.me
+pool.ntp.org
 criteo.com
 pubmatic.com
 adroll.com
