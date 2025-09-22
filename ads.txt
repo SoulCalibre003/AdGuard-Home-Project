@@ -1,3 +1,5 @@
+api.prd.gii.me
+ums.prd.gii.me
 criteo.com
 pubmatic.com
 adroll.com
