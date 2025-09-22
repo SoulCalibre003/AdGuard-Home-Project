@@ -1,3 +1,4 @@
+api.revenuecat.com
 criteo.com
 pubmatic.com
 adroll.com
