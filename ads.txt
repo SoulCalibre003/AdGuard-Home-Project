@@ -1,4 +1,5 @@
 api.revenuecat.com
+md.app.nextplus.me
 criteo.com
 pubmatic.com
 adroll.com
